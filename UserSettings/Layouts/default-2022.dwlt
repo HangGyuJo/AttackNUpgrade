@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 150
   draggingID: 0
 --- !u!114 &5
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 15
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -316,23 +316,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: d048ffff3449ffff8049ffffbe4affff384bffff844bffffe84bffff684cffffbe4cffff3e4dffffaa4dffff144effff744effffe64effff385bffffa65bfffff25bffff545effffd2e8ffffece9ffffcaf0ffff64f1ffff78f2ffffae440000507500008c750000a0750000c07500009a7b0000a27b0000c27b0000
+      m_SelectedIDs: fa4e0000
+      m_LastClickedID: 20218
+      m_ExpandedIDs: 1afbffffe24e00000a4f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: InGame_BG
-        m_OriginalName: InGame_BG
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 31650
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -450,7 +450,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c8600000
     m_LastClickedID: 24776
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000184f0000404f0000424f0000444f0000464f0000484f00004a4f00004c4f00004e4f0000504f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -478,21 +478,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 1696}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000ee40000026410000444400004e7c0000527c00005a7c00005e7c0000627c0000667c0000a47d0000
+    m_ExpandedIDs: ffffffff00000000184f0000404f0000424f0000444f0000464f0000484f00004a4f00004c4f00004e4f0000504f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Group 50
-      m_OriginalName: Group 50
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 32276
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
