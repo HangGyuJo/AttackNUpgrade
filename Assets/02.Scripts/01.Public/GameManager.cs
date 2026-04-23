@@ -5,36 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance; // 싱글톤 사용
+    private static GameManager instance = null; // 싱글톤 사용 (보안을 위해 private 선언)
 
-
-    public InventoryManager inventoryManager; // 인벤토리 매니저
-
-    // Start is called before the first frame update
-    void Start()
+    // 인스턴스에 접근할 수 있는 프로퍼티
+    public static GameManager Instance
     {
-        // 싱글톤이 이미 선언되어 있으면 코드 종료
-        if (Instance != null) return;
-
-
-        Instance = this;
-
-        // 씬이 전환되어도 설정한 오브젝트가 계속 유지되도록 함.
-        DontDestroyOnLoad(inventoryManager);
-        DontDestroyOnLoad(Instance);
-
-        // 화면이 꺼지지 않도록 함
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
-
-        if (SceneManager.GetActiveScene().name.CompareTo("Title") != 0
-                && SceneManager.GetActiveScene().name.CompareTo("Play") != 0)
+        get
         {
-            ChangeScene("Title");
+            // 인스턴스가 없을 경우 생성
+            if (Instance == null) instance = new GameManager();
+            return instance;
         }
     }
 
-    // Update is called once per frame
-    void Update()
+
+    // 생성자
+    public GameManager()
+    {
+        // 화면이 꺼지지 않도록 함
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+    }
+
+    void Start()
     {
         
     }
