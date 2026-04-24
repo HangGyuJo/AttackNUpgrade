@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
             return instance;
         }
     }
-
+    
 
     // »ı¼ºÀÚ
     public GameManager()
