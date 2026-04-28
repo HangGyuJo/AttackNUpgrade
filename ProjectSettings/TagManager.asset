@@ -11,21 +11,21 @@ TagManager:
   - 
   - Water
   - UI
+  - 
+  - Tile
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - OverUI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 
@@ -44,6 +44,9 @@ TagManager:
   - name: UI
     uniqueID: 33210745
     locked: 0
-  - name: Object
+  - name: Tile
     uniqueID: 2392379477
+    locked: 0
+  - name: Object
+    uniqueID: 3065848027
     locked: 0

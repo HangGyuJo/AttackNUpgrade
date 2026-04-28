@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/01.Scenes/Title.unity
+    path: Assets/_Project/01.Scenes/Default.unity
+    guid: fe77235b47533194f90811d48e45f309
+  - enabled: 1
+    path: Assets/_Project/01.Scenes/Title.unity
     guid: d2625e62eda11b747b901c4cd7301836
   - enabled: 1
-    path: Assets/01.Scenes/Lobby.unity
+    path: Assets/_Project/01.Scenes/Lobby.unity
     guid: ede81396ec7e8b74caeee4e5e3471dff
   - enabled: 1
-    path: Assets/01.Scenes/WaitingRoom.unity
+    path: Assets/_Project/01.Scenes/WaitingRoom.unity
     guid: e286e8dfa1a06cf439d768ac363ddb75
   - enabled: 1
-    path: Assets/01.Scenes/InGame.unity
+    path: Assets/_Project/01.Scenes/InGame.unity
     guid: 833dc7af5daadab4198852222ec2239a
   m_configObjects: {}
