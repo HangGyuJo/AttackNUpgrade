@@ -10,7 +10,7 @@ public class NetworkBootsrapper : MonoBehaviour
 
     private void Awake()
     {
-        // 이미 초기화 되었다면 현재 오브젝트 파괴 후 함수 종료
+        // 이미 초기화 되었다면 현재 오브젝트 파괴 후 함수 종료 (초기화를 중복으로 하지 않기 위함)
         if (initialized)
         {
             Destroy(gameObject);

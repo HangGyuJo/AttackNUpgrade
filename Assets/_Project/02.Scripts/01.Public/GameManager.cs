@@ -17,32 +17,9 @@ public class GameManager : MonoBehaviour
             return instance;
         }
     }
-    
 
-    // 생성자
-    public GameManager()
+    private void Awake()
     {
-        // 화면이 꺼지지 않도록 함
-        Screen.sleepTimeout = SleepTimeout.NeverSleep;
-    }
-
-    void Start()
-    {
-        
-    }
-
-    /// <summary>
-    /// 씬을 전환하는 함수
-    /// </summary>
-    /// <param name="scene_Name">씬 이름</param>
-    public IEnumerator ChangeScene(string scene_Name)
-    {
-        // 비동기적으로 씬을 로드함
-        AsyncOperation op = SceneManager.LoadSceneAsync(scene_Name);
-
-        // 씬 로드가 완료되어도 즉시 화면 전환을 하지 않도록 설정
-        op.allowSceneActivation = false;
-
-        yield return op;
+        DontDestroyOnLoad(this);
     }
 }
